@@ -1,0 +1,69 @@
+NodeJS - JS on server 
+Server ->Remote Computer CPU located at somewhere
+         When we are running a website we are running it on a server 
+         somebodys Computer or cloud
+         At the end od the day a server is receiving a request
+
+
+         Web browser makes a request
+         Every website maps a domain 
+         we get a IP 
+         Ip points to a server or a machine
+         When we are reequesting google it sends a request 
+         to the server 
+         When Javascript is just running on the frontend 
+         There were seperate backend
+         But now we can create js for frontend and backend 
+         When js run on both client side and server side
+         MERN Stack 
+         Mongo db Express React Nodejs 
+         Js can run on both client side and server side
+Node js is a C++ Code 
+JS engine - V8 developed by google Chromes Written in c++
+JS engine - C++ program
+V8 can be embedded into any c++ program
+The job of V8 is to execute JS 
+Js code is read By v8 and convert into Machine understandable code
+
+NodeJs is a c++ application with V8 embedded into it 
+
+V8 Follows EcmaSciprt standard
+EcmaScipt is s standard that js follows
+Ecmascript is a standard 
+This EcmaSciprt is a standard that js follows and it also followed by typescript
+
+EcmaSciprt Defines rules
+Javascript works on that standard 
+Standard/Rules
+JS engine has to follow these Rules 
+There is a committe who makes the decision
+-V8              - google 
+-SpiderMonkey    - FireFox 
+-Chakra          - microsoft
+ES6 ->6th version of the Ecmascript Standards
+
+
+NodeJs is a c++ application 
+V8 is inside it ->has to follow Ecmascript Standard and cannot go outside the ecmascrip standard 
+Node also provide More Api above the layer of v8(modules)
+V8 cannot connect to database 
+V8 cannot connect to server
+V8 cannot fetch Files from folder 
+These are provided by Nodejs  
+V8 can only run JS 
+This is Known as Js runtime 
+V8 is C++
+Api Modules is Javascript
+
+
+V8 is a c++ Code?
+    Compute Understands Binary 0/1
+    On top of this There is assembly language 
+    On top of this there is machine Code 
+    On top of this Machine Code there is High  level Lang C++ java 
+    On top of this we write Js
+
+Whenever we Write a JS code
+Then it is processed by c++ code
+Then it is converted by machine Code
+Then it is Converted To Binary 

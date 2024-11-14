@@ -1,0 +1,21 @@
+NODE REPL
+Read Evaluate Print Loop
+Command : node (REPL)
+
+Node js->Javascript Runtime Environment
+Js code paresd to V8 then V8 execute the code
+        ->V8 Engine
+Node js
+        -> 
+
+Global Is outside the V8 
+Global Object Gives access to setTimeout SetInterval
+Access Given inside the V8 But it Does not Understands global 
+Global is Nodejs
+
+This (window ,self, frames,Global) refer to Global object in browser
+Browser named it as Window 
+Web workers They use self 
+Node js use Global 
+
+GlobalThis -> refer global in all browsers 

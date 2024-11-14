@@ -1,0 +1,51 @@
+Any application taht can be written in javascript will eventually be written in javascript
+
+Javascript is Dominating
+Javascript is running is almost everywhere
+Nodejs is a Runtime Which run on Chromes V8 javascript Engine
+Cross Platform - run on windows linux macos
+Open Source    - Maintained by open js Foundation
+Node js helps to run js outside the browser
+js is always been a language for the web
+Dynamic behaviour of the web core of the web
+
+Node js helps js to run ourside the browsers
+
+->Google(V8)
+->SpiderMonkey(Firefox)
+
+Run js everywhere
+    **Event Driven architecture
+    **Asynchronous IO (Non blocking IO)
+Node js developed By Ryan Dall
+2009 -> Nodejs Born (Ryan Dall Independent Developer)
+     -> Ryan Dall Started with Spider Monkey(Js engine found in FireFox)
+     -> Then moved to V8 
+     -> Ryan Dall Joined With Joynt Company and contributeed to Nodejs
+     -> Early Name Web.js 
+     -> Nodejs Renamed
+     -> Apache was used to create HTTP server (Blocky Server)
+     -> Ryan wanted to make a non Blocking IO
+     -> Node js was solving the problem Non Blocking 
+     -> 2010 npm Started
+     -> npm a central registry where we can add create contribute new packages
+     -> There are packages for everything in npm
+     -> Npm was a significant achievement
+     -> 2011 Windows Support
+     -> Initially it was only for mac os and linux
+     -> Done by joynt and microsoft
+     -> 2012 Ryan left the project
+     -> Responsibility was given to Issac
+     -> Issac creator of npm 
+     -> Pace of development was very slow
+     -> 2014 Fedor created a fork named io.js copy of nodejs 
+        Then 2 3 developers started maintaining it 
+     -> Joynt was managing nodejs but nodejs was open source
+     -> So joynt was limiting the releases of it and not actively releases
+     -> September 2015 A nodejs foundation was formed and this was a commitie
+        took care of nodejs and io js merged and they started maintaining it
+     -> Now we are using merged version of nodejs and iojs
+     -> 2019 JS foundation and nodejs Foundation was merged and created openjs Foundation
+     -> Now they are maintaining Open js foundation
+To run javascript we need js Engine 
+
