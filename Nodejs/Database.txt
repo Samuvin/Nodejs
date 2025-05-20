@@ -1,0 +1,57 @@
+Database is a storing data in a organised way
+To fetch data put data efficiently we need to do it efficiently
+In computing, a database is an organized collection of data or a type of data store 
+based on the use of a database management system (DBMS), the software that interacts with end users, 
+applications, and the database itself to capture and analyze the data. The DBMS additionally encompasses 
+the core facilities provided to administer the database. The sum total of the database, the DBMS and the 
+associated applications can be referred to as a database system. Often the term "database" is also used loosely 
+to refer to any of the DBMS, the database system or an application associated with the database.
+
+
+Types of database
+
+Relational DB - MYSQL , postgree 
+NoSQL         - Mongodb 
+In memory DB  - Redis   -> cache
+Distributed   - Cockroach DB 
+Timeseries    - Influx 
+OO            - DB40
+GraphDB       - Neo4j
+Heirarchical  - IBM IMS
+Network       - IDMS 
+Cloud         - Amazon 
+
+
+RSBMS
+1970 1980 introduced
+EF CODD - CODD 12 Rules (13 rules -> 0 to 12)
+Designed this 12 rules and say that if the db follows this 12 rules then it is RDBMS
+
+
+MYSQL 
+->Developed by michael widenis
+->He created one more Relational database MAX DB 
+->MYSQL  MAXDB MARIADB 
+->Named after Three daughters of michael widenis 
+->MYSQL is managed my oracle    
+
+
+NoSQL 
+    Non Sequal Not only sql  
+    Intriduced in 2000
+
+->Document DB  (DOcument) 2009 (Node js)
+->Key Value 
+->GraphDB 
+->WideColumn DB
+->Multimodel DB 
+
+
+RDBMS
+Table Row and column (Excel sheet)
+
+
+NOSQL 
+No need for joins 
+No need for normalization 
+Collection Document Fields

@@ -1,0 +1,62 @@
+Waterfall model
+->Requirements
+    * Product / Project Manager + Designer
+    * Project manager What will happen in big companies
+    * Get Help with designers
+->Desgin        
+    * Senior Engineer/ Tech Lead Design Document And make the Architecture
+    * Monolith or Microservice Architecture
+->Development
+    * Developers SDE1,SDE2
+->Testing
+    * SDET Testing Team
+    * Test the application
+    * Unit Test cases
+->Deployment
+    * Devops 
+    * Manage and take care of servers
+->Maintanace
+    * Repeat the process
+
+Monolith
+->One big single project 
+->It does everything
+->Backend Frontend Auth DB 
+->Big Proejct with everything
+->Email 
+->Analytics
+
+
+Services 
+->All together a new project 
+->Does a small job
+
+Microservice
+->There are multiple small services
+->Microservice only for notification
+->Microservice only for dashboard
+->Microservice only for Backend
+-> .. . .. 
+->They communicate with each other
+->Small Small Architecture
+
+
+
+
+                Monolith                     Microservice
+
+Dev Speed->     Slower                       Faster     
+Code Repo->     Single code repo             Multiple code repo 
+Scalaility->    Tuff to scale                Good for scale 
+Deployment->    Single deployment            Multiple deployment 
+Tech Stack->    Restricted with tech stack   Free choice 
+Complexity->    Tuff                         Large 
+Fault Isolation Whole project crash is small Only the single servie go down
+                error
+Testing   ->    End to end test case         Tuff 
+                easy 
+Owndership
+Maintanace
+Rewamps
+Debugging
+Dev Experience

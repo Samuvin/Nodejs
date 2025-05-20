@@ -1,0 +1,117 @@
+The data send from the backend we send it in small packets Every html docs will
+be send as chunks It is a stream of chunks Stream and buffer Stream means
+connection Buffer means sending data The lang client and server talks is HTTP
+SMTP FTP When data is transfered its managed by tcp We have to send some code to
+send data from the backend to frontend 
+There is a HTTP server
+
+We send request as domain name 
+At the end Averything mapped to a IP
+DNS server is responsible for assigning IP
+
+Before making a request browser makes a request to DNS server 
+DNS manages the mapping between the IP and domain 
+
+DNS will parse reads the data one by one
+WWW part1
+ABC part2
+com part3
+
+There is a stream of data which is commign as chunks and in the stream there are buffres
+
+HTTP - Hyper text transfer protocol
+FTP  - File transfer protocol
+SMTP - Simple Mail transfer protocol
+These are different languages
+Client and server will talk through this languages 
+
+Text , html , JSON can be send throught https
+Server Will handle the request 
+Server will wait for incomming requests
+The server will get the request do some process and return the data
+
+We create a http server 
+The server will wait for the incomming requests 
+
+The language we are using to communicate with the server 
+
+
+When we make the server request it will not take the whole file and send
+It will send the data in chunks 
+
+If we are making the html request it will also come in form of chunks 
+small small pieces
+
+Stream of data which flows 
+
+
+Stream and buffer 
+Stream connection 
+Buffer Sending data in small pieces 
+
+TCP/IP is the protocol of sending the data 
+Inside node js we have to write code to send data 
+
+
+We communicate using domain name  
+At the end everything maps to a IP 
+One address is verbal address   - Domain - Human 
+One address is Geo location     - IP     - Computers 
+
+The first request is for DNS server 
+
+In the server multiple applications is running 
+
+
+We can create multiple HTTPS servers
+
+We can create a HTTP server 
+We can crete as many HTTP servers
+
+Suppose if the users is requesting something 
+Then we have to know which server i need go 
+Its defined bu port 
+
+Server1 uses 1010 
+Server2 uses 3000 
+
+102.201.1.3:3000 refers to server2 
+
+There is a Computer and there is a server running on the port 3000 
+
+The Computer can have multiple server 
+According to the port which server it has to go 
+We can run run multiple server and each server running 
+
+We can use any digit we generally use 3000
+some port number are restricted
+
+Domain name maps to a IP 
+port   says which server 
+Path   says which API 
+
+DOMAIN+PORT+PATH
+
+123.4.5.6 : 3000                                 / api                      /get user info
+IP         Refering to the nodejs application      maps to the application   Path  which decide which code has to run 
+
+
+We can run everything in the same server 
+When there is a huge server DB file server image server 
+When a client is requesting sometimes it can makes some other server and get the data and send back to the client 
+Servers can communicate with each other
+    
+
+Web sockets
+
+There are multiple users who come to our server 
+and request if we load a website our server will get the data from the server 
+And the socket is closed
+
+If we go to some other server they open the socket and get the data and the connection is closed
+
+
+But we socket the connection is not closed untill we mannually closed it 
+Now the client can send and receive data 
+
+There are limit to open the sockets 

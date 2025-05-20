@@ -1,0 +1,80 @@
+Requirements
+->Create An Account
+->Login
+->Update Your Profile
+->Feed Of people - explore
+->Send Connection request or ignore
+->See a place where our matches
+->See the request we have send/receive
+
+Design
+->2 Microservices  
+    1)Frontend
+    2)Backend 
+->Backend 
+    Node JS
+    MongoDB
+Development
+1)LLD
+    DB  Design
+    API Design
+DB 
+ Collections (4)
+ -User
+    ->Firstname
+    ->LastName
+    ->EmailID
+    ->Password
+    ->Age
+    ->Gender
+
+->Relationship Connection request 
+->Another Collections
+
+-Connections
+    ->From
+    ->To
+    ->Status = (Pending/Accepted/Rejected)
+
+->Rejected User 
+->Accepted User 
+
+
+API desig
+
+REST API
+    IF we have a frontend and backend The communication 
+    Frontend Knows the mail and pass 
+    In backend WE have login api 
+    The login api go to the databse and check the user credentials
+
+REST API
+ -GET 
+ -POST       - Put  
+ -PUT        - Update 
+ -Patch      -  
+ -DELETE     - Delete the data 
+
+
+Post   /signup
+POST   /login
+GET    /Profile 
+POST   /Profile 
+PATCH  /Profile 
+DELETE /Profile
+POST   /sendrequest  (ignore,intrested)
+POST   /ReviewRequest ( Accept,Rejected)
+GET    /request 
+GET    /Connections 
+
+
+
+//Mobile validation
+//Report User 
+
+The main job of the server is to send the response
+
+
+Route Handler
+
+Why middleware
